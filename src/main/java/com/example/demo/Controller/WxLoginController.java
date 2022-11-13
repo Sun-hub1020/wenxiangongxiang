@@ -60,8 +60,8 @@ public class WxLoginController {
     }
 
     public String GenerateTargetURL(String Code){
-        String APPID  = "?appid=wx7b3c6e8f013cf896";
-        String SECRET = "&secret=77f8ccbde898a58ac373e2ba71ad2cc1";
+        String APPID  = "?appid=wx82d113c59be7d93d";
+        String SECRET = "&secret=694264b5d8abcafb30d0f7679d084b35";
         String CODE   = "&js_code=" + Code;
         String Head   = "https://api.weixin.qq.com/sns/jscode2session";
         String Tail   = "&grant_type=authorization_code";
